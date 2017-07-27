@@ -1,0 +1,14 @@
+
+.user-search {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 29px;
+    background-color: #f9f9f9;
+    padding-bottom: 15px;
+}
+
+.user-search input {
+    margin-left: 15px;
+    padding: 5px;
+}
