@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { search } from '../../actions/index';
 import './UserSearch.css';
 
-let UserSearch = ({ dispatch }) => {
+const UserSearch = ({ dispatch }) => {
   let input;
 
   return (
@@ -29,6 +29,4 @@ UserSearch.propTypes = {
   dispatch: propTypes.func.isRequired,
 };
 
-UserSearch = connect()(UserSearch);
-
-export default UserSearch;
+export default connect()(UserSearch);
